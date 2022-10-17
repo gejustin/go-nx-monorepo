@@ -1,0 +1,8 @@
+go 1.18
+
+use (
+	apps/go-app-1
+	apps/go-app-2
+	libs/go-lib-1
+	libs/go-lib-2
+)
