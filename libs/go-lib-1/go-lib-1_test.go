@@ -6,7 +6,7 @@ import (
 
 func TestGoLib1(t *testing.T) {
 	result := GoLib1("works")
-	if result != "GoLib1 works" {
+	if result != "GoLib1 works GoLib2 works" {
 		t.Error("Expected GoLib1 to append 'works'")
 	}
 }
