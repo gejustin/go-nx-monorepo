@@ -9,6 +9,14 @@
 
 `npx nx g @nx-go/nx-go:app go-app-3`
 
+Run it - `npx nx run go-app-3:serve`
+Build it - `npx nx run go-app-3:build`
+Test it - `npx nx run go-app-3:test`
+Lint it - `npx nx run go-app-3:lint`
+
 ## Create a new Go Lib
 
 `npx nx g @nx-go/nx-go:lib go-lib-3`
+
+Test it - `npx nx run go-lib-3:test`
+Lint it - `npx nx run go-lib-3:lint`
